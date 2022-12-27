@@ -1,0 +1,16 @@
+#first_name = input('Qual o seu primeiro nome?')
+#last_name = input('Qual o seu sobrenome?')
+#print(first_name+last_name)
+#print('Hello, ' + first_name + ' ' + last_name)
+
+#modificando strings 
+#sentence = 'The dog is named Sammy'
+#print(sentence.upper())
+#print(sentence.lower())
+#print(sentence.capitalize())
+#print(sentence.count('a'))
+
+#essas funções ajudam a formatar strings e salvá-las nos arquivos e banco de dados de forma correta e uniforme, exemplo: 
+first_name = input('Qual o seu primeiro nome?: ')
+last_name = input('Qual o seu sobrenome?: ')
+print('Hello, ' + first_name.capitalize() + ' ' + last_name.capitalize())
