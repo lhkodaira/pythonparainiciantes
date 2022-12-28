@@ -13,6 +13,6 @@
 print()
 country = input('Qual o seu país de origem: ')
 if country.lower() == 'canada':
-    print('olha, uma canadense : D')
+    print('Você é canadense :)')
 else:
-    print('que pena.')
+    print('Puxa, que legal! Ainda não sei como se chama alguém que nasceu no ' + country.capitalize())
