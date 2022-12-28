@@ -34,3 +34,6 @@ birthday_date = datetime.strptime(birthday, '%d/%m/%Y')
 print('Sua data de nascimento foi em ' + str(birthday_date))
 birthday_eve = birthday_date - one_day
 print('O dia anterior ao seu aniversário foi ' + str(birthday_eve))
+#neste caso temos que o usuário terá que colocar a data exatamente no formato, qualquer espaço a mais ou simbolo diferente
+#fará com que dê erro 
+
