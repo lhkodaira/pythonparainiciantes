@@ -44,3 +44,22 @@ person['last'] = 'Kodaira'
 print(person)
 print(person['first'])
 print(len(person))
+
+# conforme vídeo 26 
+
+laiz = {}# isso é um dicionário 
+laiz ['first'] = 'Laiz'
+laiz ['last'] = 'Kodaira'
+
+yuji = {}#isso é um dicionário 
+yuji ['first'] = 'Yuji' #usando crtl+d a gente consegue alterar somente os itens selecionados, talvez só funcione p vscode
+yuji ['last'] = 'Kodaira'
+
+people = []#isso é uma lista
+people.append(laiz)# aqui adicionando o dicionário criado na lista 
+people.append(yuji)
+people.append({
+    'first': 'Jun', 'last': 'Kodaira'
+})#pode-se tbm adicionar um dicionário desta forma na lista 
+
+print(people)
