@@ -17,17 +17,17 @@ from datetime import datetime #desta forma não precisa declarar duas vezes o da
 
 #vamos criar uma função para printar o tempo : 
 
-def print_time():
-    print('task completed')
-    print(datetime.now())#declarando o segundo datetime no topo, no código fica mais limpo
-    print()
+#def print_time():
+    #print('task completed')
+    #print(datetime.now())#declarando o segundo datetime no topo, no código fica mais limpo
+    #print()
 
-first_name = 'Laiz'
-print_time()
+#first_name = 'Laiz'
+#print_time()
 
-for x in range(0,3):
-    print(x)
-print_time()
+#for x in range(0,3):
+ #   print(x)
+#print_time()
 
 #caso a gente queira usar a msm função mas com algumas modificações em um dos itens: 
 
